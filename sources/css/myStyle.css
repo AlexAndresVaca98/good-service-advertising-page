@@ -1,6 +1,6 @@
 .logo-banner {
   display: inline-block;
-  width: 7.5rem;
+  width: 10.5rem;
 }
 
 .carrousell {
@@ -38,12 +38,31 @@
   color: #d81324;
 }
 .text-danger {
-  color: #a81f17!important;
+  color: #a81f17 !important;
 }
 
 .btn-danger {
-  background-color: #a81f17!important;
+  background-color: #a81f17 !important;
 }
 .bg-danger {
-  background-color: #a81f17!important;
+  background-color: #a81f17 !important;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-warning {
+  color: #e0b934 !important;
+}
+.btn-pimary {
+  background-color: #355483 !important;
+}
+.btn-outline-primary {
+  border: 1px solid#355483;
+}
+.btn-outline-primary:hover {
+  border: #355483;
+  background-color: #355483 !important;
+}
+.text-info {
+  color: #355483 !important;
 }
