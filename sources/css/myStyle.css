@@ -1,39 +1,49 @@
 .logo-banner {
-    display: inline-block;
-    width: 7.5rem;
+  display: inline-block;
+  width: 7.5rem;
 }
 
 .carrousell {
-    background-color: rgba(0, 0, 0, 0.802);
+  background-color: rgba(0, 0, 0, 0.802);
 }
 
 .img-circle {
-    background-color: #d81324;
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
+  background-color: #d81324;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
 }
 
 .banner-publicity {
-    margin-top: -5rem;
-    z-index: 99999;
+  margin-top: -5rem;
+  z-index: 99999;
 }
 
 .banner-footer {
-    margin-top: -10rem;
-    z-index: 99999;
-    /* height: 10rem; */
+  margin-top: -10rem;
+  z-index: 99999;
+  /* height: 10rem; */
 }
 
 .lista-per {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .link {
-    color: white;
+  color: white;
 }
 
 .link:hover {
-    color: #d81324;
+  color: #d81324;
+}
+.text-danger {
+  color: #a81f17!important;
+}
+
+.btn-danger {
+  background-color: #a81f17!important;
+}
+.bg-danger {
+  background-color: #a81f17!important;
 }
