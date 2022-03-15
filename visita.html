@@ -9,6 +9,25 @@
     <link rel="stylesheet" href="sources/css/myStyle.css" />
     <!-- ICONS -->
     <link rel="stylesheet" href="sources/library/fontawesome/css/all.css" />
+    <!-- FAVICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="sources/ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="sources/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="sources/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="sources/ico/site.webmanifest" />
   </head>
 
   <body>
@@ -124,14 +143,12 @@
             </ul>
             <div class="d-flex justify-content-center align-items-center">
               <b class="mx-4">SIGUENOS :</b>
-              <a href="" target="_blank" class="btn">
+              <a
+                href="https://www.facebook.com/DAVIDSILVAGOODSERVICE1/"
+                target="_blank"
+                class="btn"
+              >
                 <i class="fa-brands fa-facebook text-danger"></i>
-              </a>
-              <a href="" target="_blank" class="btn">
-                <i class="fa-brands fa-twitter text-danger"></i>
-              </a>
-              <a href="" target="_blank" class="btn">
-                <i class="fa-brands fa-instagram text-danger"></i>
               </a>
             </div>
           </div>
@@ -185,32 +202,32 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="https://picsum.photos/800/500"
+                  src="sources/img/elevador-de-autos.png"
                   class="d-block w-100"
                   width="800px"
-                  height="600px"
-                  alt="..."
+                  height="800px"
+                  alt=" ELEVADORES PARA MECANICA Y MONTAJE Y DESMONTAJE DE PIEZAS"
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 class="">
+                  <h2 class="">
                     ELEVADORES PARA MECANICA Y MONTAJE Y DESMONTAJE DE PIEZAS
-                  </h5>
-                  <p>
+                  </h2>
+                  <p class="d-none">
                     Some representative placeholder content for the first slide.
                   </p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://picsum.photos/800/500"
+                  src="sources/img/zona-lavado.png"
                   class="d-block w-100"
                   width="800px"
-                  height="600px"
+                  height="800px"
                   alt="..."
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>AREA DE LAVADO Y TEMPLADO</h5>
-                  <p>
+                  <h2>AREA DE LAVADO Y TEMPLADO</h2>
+                  <p class="d-none">
                     Some representative placeholder content for the second
                     slide.
                   </p>
@@ -218,15 +235,15 @@
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://picsum.photos/800/500"
+                  src="sources/img/alineacion.png"
                   class="d-block w-100"
                   width="800px"
-                  height="600px"
+                  height="800px"
                   alt="..."
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>EQUIPO DE BALANCEO, DESENLLANTAJE Y REVISION DE AROS</h5>
-                  <p>
+                  <h2>EQUIPO DE BALANCEO, DESENLLANTAJE Y REVISION DE AROS</h2>
+                  <p class="d-none">
                     Some representative placeholder content for the third slide.
                   </p>
                 </div>
@@ -266,7 +283,16 @@
     <br />
     <!-- CONOCE -->
     <!-- EXTRA -->
-    <div class="container-fluid carrousell py-5">
+    <div
+      class="container-fluid carrousell py-5"
+      style="
+        background-image: url('sources/img/agendar-cita.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      "
+    >
       <br />
       <br />
       <div class="container">
@@ -283,18 +309,31 @@
             <br />
             <div class="row">
               <div class="col-12 text-center">
-                <h3 class="fw-bolder text-white h5">Machachi, Ecuador</h3>
-                <br />
-                <ul class="lista-per">
-                  <li class="mb-2 text-white">
-                    <i class="fa-solid fa-phone text-danger"></i>
-                    &nbsp;&nbsp;<span>(022) 315 639</span>
-                  </li>
-                  <li class="mb-2 text-white">
-                    <i class="fa-solid fa-mobile-screen-button text-danger"></i>
-                    &nbsp;&nbsp;<span>0992539363</span>
-                  </li>
-                </ul>
+                <div
+                  class="card bg-danger"
+                  style="border-radius: 20px; width: 18rem; margin: 0 auto"
+                >
+                  <div class="card-body">
+                    <div class="card-title text-white">
+                      <h3 class="fw-bolder h5">Machachi, Ecuador</h3>
+                      <hr />
+                    </div>
+                    <div class="card-text">
+                      <ul class="lista-per">
+                        <li class="mb-2 text-white">
+                          <i class="fa-solid fa-phone text-white"></i>
+                          &nbsp;&nbsp;<span>(022) 315 639</span>
+                        </li>
+                        <li class="mb-2 text-white">
+                          <i
+                            class="fa-solid fa-mobile-screen-button text-white"
+                          ></i>
+                          &nbsp;&nbsp;<span>0992539363</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -303,6 +342,8 @@
       <br />
       <br />
     </div>
+
+    <!-- EXTRA -->
     <br />
     <br />
     <br />
@@ -345,9 +386,15 @@
                         value=""
                         aria-label="Recipient's username with two button addons"
                       />
-                      <button class="btn btn-primary" type="button">
+                      <a
+                        href="https://api.whatsapp.com/send?phone=593992539363"
+                        target="_blank"
+                        class="btn btn-danger"
+                        type="button"
+                      >
+                        <i class="fa-solid fa-message mr-2"></i>
                         ENVIAR
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -418,6 +465,15 @@
                   &nbsp;&nbsp;<span>VISITANOS</span></a
                 >
               </li>
+              <li class="text-white">
+                <a
+                  class="btn link"
+                  href="http://sgso.goodservice-ec.com/"
+                  target="_blank"
+                  ><i class="fa-solid fa-chevron-right text-danger"></i>
+                  &nbsp;&nbsp;<span>SALUD OCUPACIONAL</span></a
+                >
+              </li>
             </ul>
           </div>
           <div class="d-md-none col-12">
@@ -442,7 +498,12 @@
               Atención los 365 dias del año para emergencias y recepción de
               vehículos.
             </p>
-            <button class="btn btn-danger">Llama ahora!</button>
+            <a
+              href="https://api.whatsapp.com/send?phone=593992539363"
+              target="_blank"
+              class="btn btn-danger"
+              >Llama ahora!</a
+            >
           </div>
         </div>
       </div>
